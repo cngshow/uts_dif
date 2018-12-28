@@ -8,9 +8,6 @@ import {FirstCard, SecondCard} from './components/cards/func_cards'
 // fix for IE11 allowing us to use axios/fetch for ajax calls
 import { promise, polyfill } from 'es6-promise'; polyfill();
 
-// imported axios here so it can be used throughout the app in any card
-import axios from 'axios'
-
 export default class Application extends React.Component {
     constructor(props) {
         super(props);
